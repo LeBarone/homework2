@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(119, 102, 102);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-shadow: 2px 2px 5px red;
+    background-color: rgb(54, 35, 35);
+    transform: scale(1.2);
+    color: aliceblue;
+
+  }
